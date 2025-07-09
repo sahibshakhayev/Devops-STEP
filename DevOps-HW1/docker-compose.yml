@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      - SA_PASSWORD=${SA_PASSWORD}
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "${SA_PASSWORD}", "-Q", "SELECT 1"]
+      interval: 10s
+      retries: 10
+      start_period: 30s
+    networks:
+      - dev-net
+    volumes:
+      - sqlvolume:/var/opt/mssql
+
+  backend:
+    build:
+      context: ./backend
+    container_name: aspnet-api
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=${MSSQL_DB};User Id=sa;Password=${SA_PASSWORD};Encrypt=False;TrustServerCertificate=True
+    ports:
+      - "5000:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - dev-net
+
+networks:
+  dev-net:
+    driver: bridge
+
+volumes:
+  sqlvolume:
