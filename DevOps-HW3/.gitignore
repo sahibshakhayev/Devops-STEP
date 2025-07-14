@@ -1,0 +1,123 @@
+# =========================
+# Global ignores
+# =========================
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.pid
+
+# =========================
+# .NET Core / ASP.NET Core
+# =========================
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vscode/
+.vs/
+
+# Rider
+.idea/
+
+# ASP.NET runtime files
+wwwroot/lib/
+
+# ASP.NET Secrets
+secrets.json
+
+# .NET Core specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Paket dependency manager
+.paket/
+paket-files/
+
+# Dotnet publish artifacts
+publish/
+
+# Ocelot config (if generated at runtime)
+ocelot.generated.json
+
+# =========================
+# Docker & Kubernetes
+# =========================
+
+# Docker files
+**/Dockerfile.*
+**/docker-compose*.yml
+.dockerignore
+
+# Local Docker volumes or config
+docker-data/
+.docker/
+
+# Kubernetes manifests (optional if version-controlled)
+*.tmp.yaml
+*.bak.yaml
+*.generated.yaml
+
+# Helm
+charts/
+*.tgz
+
+# Minikube
+minikube/
+.kube/
+
+# =========================
+# Node (if used in frontend microservices)
+# =========================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =========================
+# Miscellaneous
+# =========================
+
+.env
+.env.*
+*.swp
+*.swn
+*.bak
+*.tmp
+
+# JetBrains Rider & WebStorm
+.idea/
+
+# Python virtualenvs (if applicable)
+venv/
+.env/
+
+# Backup files
+*.bak
+
+# Kubernetes client config
+.kube/config
+.kube/cache/
+
+# Terraform (if using for provisioning)
+.terraform/
+*.tfstate
+*.tfstate.*
+
