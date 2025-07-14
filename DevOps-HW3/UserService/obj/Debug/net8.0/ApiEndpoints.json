@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "UserService.Controllers.UserController",
+    "Method": "GetUserInfo",
+    "RelativePath": "api/User/info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

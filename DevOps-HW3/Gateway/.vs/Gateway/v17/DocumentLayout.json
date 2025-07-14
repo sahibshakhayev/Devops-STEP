@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|d:\\projects\\step it\\devops\\devops-hw3\\gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|solutionrelative:ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|d:\\projects\\step it\\devops\\devops-hw3\\gateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|d:\\projects\\step it\\devops\\devops-hw3\\gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|d:\\projects\\step it\\devops\\devops-hw3\\gateway\\gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94112108-F8DF-5F33-FCC7-943C584AEA0E}|Gateway.csproj|solutionrelative:gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-11T07:29:27.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gateway.csproj",
+              "DocumentMoniker": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Gateway.csproj",
+              "RelativeDocumentMoniker": "Gateway.csproj",
+              "ToolTip": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Gateway.csproj",
+              "RelativeToolTip": "Gateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T07:15:23.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\ocelot.json",
+              "RelativeDocumentMoniker": "ocelot.json",
+              "ToolTip": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\ocelot.json",
+              "RelativeToolTip": "ocelot.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T07:15:35.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\Gateway\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T07:13:30.446Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

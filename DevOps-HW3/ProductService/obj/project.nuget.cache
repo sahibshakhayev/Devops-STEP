@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "A09p1q6fFSA=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\ProductService\\ProductService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sahib\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.22.1\\microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

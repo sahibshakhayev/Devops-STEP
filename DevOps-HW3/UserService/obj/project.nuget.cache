@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/zPA2TnTOlo=",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\STEP IT\\DevOps\\DevOps-HW3\\UserService\\UserService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sahib\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
+    "C:\\Users\\sahib\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
